@@ -41,3 +41,4 @@ console.log(arr);
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 // Review day 1
+// No new notes will be published, will be reviewing 1-5
