@@ -43,6 +43,6 @@
 // Your array should contain at least one string, one number, and one boolean.
 let yourArray = ["a", 2, true, "c", null,{name: "john"}] // Change this line
 
-
 // let yourArray; // Change this line
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// Review day 1
