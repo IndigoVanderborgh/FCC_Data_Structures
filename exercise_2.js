@@ -40,3 +40,4 @@ console.log(myArray);
 // // Only change code above this line
 // console.log(myArray);
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// Review day 1
