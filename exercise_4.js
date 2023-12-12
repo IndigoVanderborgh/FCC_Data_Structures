@@ -44,3 +44,4 @@ console.log(popShift(["challenge", "is", "not", "complete"]));
   
 //   console.log(popShift(['challenge', 'is', 'not', 'complete']));
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// Review day 1
