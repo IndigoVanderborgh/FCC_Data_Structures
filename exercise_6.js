@@ -51,3 +51,8 @@ console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'Pal
 //   console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// arr.splice(0, 2, "DarkSalmon", "BlanchedAlmond");
+
+// Let's break this down:
+// arr        . splice          (0,            2,                "DarkSalmon", "BlanchedAlmond");
+// ^the array . ^splice command (^start index  ^how many deleted  ^entry one    ^entry two)
