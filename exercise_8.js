@@ -17,17 +17,18 @@
 
 // ------------------------------------------ exercise ------------------------------------------------------------------------------------------------------------------------------
 function copyMachine(arr, num) {
-    let newArr = [];
-    while (num >= 1) {
-      // Only change code below this line
-  
-      // Only change code above this line
-      num--;
-    }
-    return newArr;
+  let newArr = [];
+  while (num >= 1) {
+    // change code below this line
+    newArr.push([...arr]);
+    // change code above this line
+    num--;
   }
-  
-  console.log(copyMachine([true, false, true], 2));
+  return newArr;
+}
+
+// change code here to test different cases:
+console.log(copyMachine([true, false, true], 2));
 
 //   function copyMachine(arr, num) {
 //     let newArr = [];
@@ -43,3 +44,4 @@ function copyMachine(arr, num) {
 //   console.log(copyMachine([true, false, true], 2));
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// 
