@@ -40,3 +40,5 @@ console.log(
 //return arr.slice(2, 4);
 //return            arr        .         slice           (2,                4);
 // ^return command  ^the array .         ^slice command   ^start of index      ^end of index
+
+// It also makes a new array
