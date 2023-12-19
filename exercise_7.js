@@ -39,4 +39,4 @@ console.log(
 // Let us look at the answer and diseect it:
 //return arr.slice(2, 4);
 //return            arr        .         slice           (2,                4);
-// ^return command  ^the array .         ^slice command   ^
+// ^return command  ^the array .         ^slice command   ^start of index      ^end of index
