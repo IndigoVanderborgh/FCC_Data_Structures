@@ -14,9 +14,7 @@
 
 
 // ------------------------------------------ exercise ------------------------------------------------------------------------------------------------------------------------------
-// indexOf() can be incredibly useful for quickly checking for the presence of an element on an array. 
-// We have defined a function, quickCheck, that takes an array and an element as arguments. Modify the function using indexOf() so that it returns true if the passed element exists on the array, 
-// and false if it does not.
+// We have defined a function spreadOut that returns the variable sentence. Modify the function using the spread operator so that it returns the array ['learning', 'to', 'code', 'is', 'fun'].
 function spreadOut() {
   let fragment = ["to", "code"];
   let sentence = ["learning", ...fragment, "is", "fun"]; // change this line
@@ -33,3 +31,10 @@ console.log(spreadOut());
 
 // console.log(spreadOut());
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// The spread operator ... can be used to combine two arrays together into one of the pre-existing arrays. let's look at the exercise and answer.
+// We are given first an empty variable. 
+// let sentence;
+
+// From here we create a new array, and inject where we want the fragment to start in the array at the proper index. 
+
+// let sentence = ["learning", ...fragment, "is", "fun"];
