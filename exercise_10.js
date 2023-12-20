@@ -35,4 +35,4 @@ function quickCheck(arr, elem) {
 //   console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
 // So to check the position of the index in the array we can use indexOf() where the element name goes inside the paranthesis. Since it is a method we can tie it with arr. in the beginning.
-// Pairing it up with a true/false we end up with the answer.
+// Pairing it up with a true/false we end up with the answer to see if the elements. If the value is returned is less than zero, it provides an output of false.
