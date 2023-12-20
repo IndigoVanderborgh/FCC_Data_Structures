@@ -44,4 +44,7 @@ console.log(copyMachine([true, false, true], 2));
 //   console.log(copyMachine([true, false, true], 2));
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
-// 
+// This one is a simple exercise. Let's analyze the answer:
+//     newArr.push([...arr]);
+//     newArr         .         push             ([...arr]);
+//     ^name of array .           ^push command  ([^copies this array to newArr])
