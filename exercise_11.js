@@ -86,3 +86,5 @@ function filteredArray(arr, elem) {
 // filteredArray([["trumpets", 2], ["flutes", 4], ["saxophones", 2]], 2) should return [["flutes", 4]]
 // filteredArray([["amy", "beth", "sam"], ["dave", "sean", "peter"]], "peter") should return [["amy", "beth", "sam"]]
 // filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3) should return []
+
+// The question is a little confusing. So to make it simple, we are filtering out a number/string from a variety of sub arrays. If the sub array has it, the sub array is filtered out.
