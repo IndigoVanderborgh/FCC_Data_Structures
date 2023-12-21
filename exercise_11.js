@@ -63,13 +63,26 @@ function filteredArray(arr, elem) {
 //     //Checks every parameter for the element and if is NOT there continues the code
 //     newArr.push(arr[i]); //Inserts the element of the array in the new filtered array
 //   }
+// }
 
+// dissected below
 
-// }      for (let i = 0; i < arr.length; i++) {
+// for (let i = 0; i < arr.length; i++) {
+// A simple for loop using the arrays length as a condition and increments i by 1 until array length condition is met.
+
 //   if (arr[i].indexOf(elem) == -1) {
-//     //Checks every parameter for the element and if is NOT there continues the code
+//  if the array elements index is -1 (not present) in the sub arrays, it continues to the next line
+
 //     newArr.push(arr[i]); //Inserts the element of the array in the new filtered array
+// inserts whatever number i is on to the new filtered array
 //   }
 // }  
 
 // will return
+
+// Other examples outputs:
+
+// filteredArray([[10, 8, 3], [14, 6, 23], [3, 18, 6]], 18) should return [[10, 8, 3], [14, 6, 23]]
+// filteredArray([["trumpets", 2], ["flutes", 4], ["saxophones", 2]], 2) should return [["flutes", 4]]
+// filteredArray([["amy", "beth", "sam"], ["dave", "sean", "peter"]], "peter") should return [["amy", "beth", "sam"]]
+// filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3) should return []
