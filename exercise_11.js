@@ -56,3 +56,20 @@ function filteredArray(arr, elem) {
 
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// This is essentially a mix of the previous exercises put together and working together. Lets take a look into the answer.
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i].indexOf(elem) == -1) {
+//     //Checks every parameter for the element and if is NOT there continues the code
+//     newArr.push(arr[i]); //Inserts the element of the array in the new filtered array
+//   }
+
+
+// }      for (let i = 0; i < arr.length; i++) {
+//   if (arr[i].indexOf(elem) == -1) {
+//     //Checks every parameter for the element and if is NOT there continues the code
+//     newArr.push(arr[i]); //Inserts the element of the array in the new filtered array
+//   }
+// }  
+
+// will return
