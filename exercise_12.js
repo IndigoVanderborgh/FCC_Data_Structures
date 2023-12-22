@@ -70,3 +70,5 @@ let myNestedArray = [
 
 
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// Let us look at the question and explain what is it we are looking for. Quite simply, We are looking to make the array have exactly five levels of depth, and starting on the third it must have 
+// a string called deep nested. on the 4th, one called deeper, and on the 5th one called deepest.
