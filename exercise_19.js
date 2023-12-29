@@ -43,6 +43,7 @@ function countOnline(allUsers) {
             result++; //
         }
     }
+    return result;
     // Only change code above this line
 }
 
@@ -68,4 +69,3 @@ console.log(countOnline(users));
   
 //   console.log(countOnline(users));
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
-// This one should work, but it isn't. Will revisit tomorrow.
