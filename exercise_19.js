@@ -37,10 +37,10 @@ const users = {
 
 function countOnline(allUsers) {
     // Only change code below this line
-    let result = 0; // set an initial value of result to 0
-    for (let user in allUsers) { // We are defining user in 
-        if (allUsers[user].online == true) { //
-            result++; //
+    let result = 0; // set an initial value of result to 0, as we are counting from 0 to 2 to determine who is online/offline.
+    for (let user in allUsers) { // We are defining user in the loop head and setting it to each of the objects keys on each iteration.
+        if (allUsers[user].online == true) { // if said object key (example, jeff -> online) is equal to true, we increase result value by one and repeat loop. If not return result and continue until all 
+            result++; // object are logged.
         }
     }
     return result;
