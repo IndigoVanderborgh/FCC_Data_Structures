@@ -37,10 +37,10 @@ const users = {
 
 function countOnline(allUsers) {
     // Only change code below this line
-    let result = 0;
-    for (let user in usersObj) {
-        if (usersObj[user].online === true) {
-            result++;
+    let result = 0; // set an initial value of result to 0
+    for (let user in allUsers) { // We are defining user in 
+        if (allUsers[user].online == true) { //
+            result++; //
         }
     }
     // Only change code above this line
@@ -68,3 +68,4 @@ console.log(countOnline(users));
   
 //   console.log(countOnline(users));
 // ------------------------------------------ Additional information ----------------------------------------------------------------------------------------------------------------
+// This one should work, but it isn't. Will revisit tomorrow.
